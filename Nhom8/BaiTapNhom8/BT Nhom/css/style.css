@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.col-2{
+    background-color: aqua;
+}
+.col-10{
+    background-color: red;
+}
+.left{
+    float: left;
+}
+.fab{
+text-decoration: none;
+}

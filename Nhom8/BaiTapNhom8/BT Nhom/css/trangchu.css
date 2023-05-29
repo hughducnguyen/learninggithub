@@ -1,0 +1,129 @@
+
+.text-center{
+    text-align: center !important;
+    
+}
+h2{
+    font-family:Verdana !important;
+    
+    font-weight: 800;
+    font-size: 29px;
+    margin: 8px;
+    padding: 6px;
+}
+/*  */
+.first-bar{
+    background-image: linear-gradient(rgb(103, 191, 229), rgb(38, 72, 222));
+    display: inline-block;
+}
+.first-bar p{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+}
+/* Navbar */
+#logo{
+    width: 150px;
+    height: 100%;
+}
+
+/* .navbar .btn:hover{
+    background-color: grey;
+    color: white;
+} */
+
+
+/*  Dropdown: Chi nhánh */
+.dropdown-list{
+    display: none;
+    position: absolute;
+    list-style-type: square;
+    z-index: 1;
+    background-color: white;
+    border: black solid;
+}
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+.nav-item{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* carousel */
+.carousel-item img{
+    width: 100%;
+    min-width: 300px;
+    height: 350px;
+    max-height: 400px;
+}
+/* Sản phẩm */
+.product-item{
+    height: 400px;
+}
+.product-item img{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    display: block;
+
+    
+}
+/* footer */
+footer i{
+    margin-right: 10px;
+}
+.footer-title{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+footer{
+    background-color: white;
+    border: solid 1px;
+     
+ }
+ footer ul li{
+    list-style-type:none ;
+    
+}
+.left{
+    padding-left: 1px;
+}
+.copyright{
+    
+    margin: 5px 0px;
+    
+}
+#top{
+    position: fixed;
+    width: 50px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    padding: 10px;
+}
+#top:hover{
+    opacity: 0.7;
+}
+.product-group .btn{
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.product-group .btn:hover{
+    color: #004080;
+    background-color: white;
+}
+.left{
+    float: left;
+}
+.product-group{
+    text-align: justify;
+    margin: 30px;
+}
+.left2{
+    padding-left: 1px;
+}
